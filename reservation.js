@@ -48,6 +48,7 @@ $(document).ready(() => {
       nameInput.next().text("");
     }
 
+    //Reference:https://stackoverflow.com/questions/6603015/check-whether-a-string-matches-a-regex-in-js
     if (emailValue === "") {
       isValid = false;
       emailInput.next().text("Please enter an email address.");
