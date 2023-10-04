@@ -9,6 +9,7 @@ $(document).ready(() => {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
+    //Reference:Chapter08Slides.pptx slide no.26 (screenshot also attached "reference/ref1.png")
     const pickupDate = $("#pickup_date");
     const daysInput = $("#days");
     const nameInput = $("#name");
